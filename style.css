@@ -59,3 +59,78 @@ h1 {
 #menu a:hover {
 	background: #FFA319;
 }
+
+.main-recipes {
+	padding: 0 200px;
+	display: flex;
+	flex-flow: column;
+	gap: 36px;
+}
+
+.description a{
+	color: #EBECF0;
+	background: #222222;
+	padding: 8px 16px;
+	width: 120px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.description a:hover{
+	background: #FFA319;
+}
+
+.main-recipes h1{
+	text-align: center;
+}
+
+.presentation{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.img img {
+	width: 400px;
+}
+
+.information {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.ingredients,
+.steps {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 16px;
+}
+
+.ingredients ul, .steps ol{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.ingredients {
+	background: #EBECF0;
+}
+
+.steps ol {
+	padding: 0 20px;
+}
+
+.steps{
+	/* background: #FFA319; */
+	border: 1px solid #FFA319;
+}
