@@ -67,17 +67,24 @@ h1 {
 	gap: 36px;
 }
 
-.description a{
-	color: #EBECF0;
-	background: #222222;
-	padding: 8px 16px;
-	width: 120px;
-	text-align: center;
-	border-radius: 8px;
+.home-link{
+	width: 30px;
+	height: 30px;
 }
 
-.description a:hover{
-	background: #FFA319;
+.home-link:hover{
+	width: 31px;
+	height: 31px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.nav h1{
+	flex-grow: 2;
 }
 
 .main-recipes h1{
